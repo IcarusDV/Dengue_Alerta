@@ -2,7 +2,7 @@ package br.edu.atitus.projeto.denguealerta.controllers;
 
 import java.time.LocalDate;
 
-import org.apache.commons.beanutils.BeanUtils;
+import org.springframework.beans.BeanUtils;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort.Direction;
